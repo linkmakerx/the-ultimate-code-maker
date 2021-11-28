@@ -1,5 +1,5 @@
 body{
-    background-color: darkorchid;
+    background-color: lightslategrey;
     font-family:arial;
     font-size:15px;
     line-height:5mm;
@@ -7,13 +7,12 @@ body{
     min-width: 100%;
 }
 fieldset{
-    background-color: turquoise;
+    background-color: rgb(58, 82, 112);
     width: 0 auto;
     margin: 0 auto;
 }
 table{
-    background-color: turquoise;
-    color: black;
+    background-color: lightgrey;
     text-align: center;
     border-style: groove;
 }
@@ -22,7 +21,11 @@ li{
 }
 a{
     text-decoration: none;
-    color: blue;
+    color: navy;
+}
+a:hover{
+    background-color: white;
+    padding: 2px;
 }
 .container{
     width:80%;
@@ -40,9 +43,6 @@ footer{
     text-align: center;
     padding-top: 10px;
 }
-main{
-    padding-bottom:20px;
-}
 img{
     max-width: 100%;
     max-height: 100%;
@@ -52,13 +52,15 @@ img{
 iframe{
     max-width: 100%;
     max-height: 100%;
-    width: auto;
-    height: auto;
-}
-.videoInsert iframe{
-    position: relative;
-    top: 0;
-    left: 0;
     width: 100px;
     height: 100px;
+}
+h1{
+    align-content: center;
+    color: navy;
+}
+form label{
+    float: left;
+    width: 300;
+    margin: 3px 0px 0px 0px;
 }
